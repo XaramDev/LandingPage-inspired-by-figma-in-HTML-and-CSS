@@ -1,0 +1,836 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f8f1;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 2rem 6rem;
+    font-family: "Inter", sans-serif;
+}
+
+.menu{
+    display: flex;
+    gap: 3rem;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.btns-menu{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btns-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.btns-menu :first-child{
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    padding: 5px ;
+    border-radius: 5px;
+}
+
+.btns-menu :last-child{
+    background-color: #0B3721;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+/* FIM DO HEADER */
+
+/* COMEÇO DO MAIN */
+main{
+    max-width: 100%;
+}
+
+/* PRIMEIRA SECTION */
+
+.conteiner-inicial > h1{
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.conteiner-inicial > p{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
+
+.conteiner-inicial > a{
+    background-color: #0B3721;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    padding: 12px 12px 14px 22px;
+
+}
+
+.fist-section{
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+/* FIM DA PRIMEIRA SECTION */
+
+/* COMEÇO DA SEGUNDA SECTION */
+
+.section-img-inicial{
+    margin: 30px 106px
+}
+
+.img-inicial img{
+    width: 100%;
+}
+
+/* FIM DA SEGUNDA SECTION */
+
+/* COMEÇO DA TERCEIRA SECTION */
+
+.section-sponsors{
+    width: 100%;
+    background-color: #f0eedc;
+}
+
+.conteiner-sponsors{
+    padding: 20px 0 ;
+}
+
+
+.fist-colum-sponsors{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.last-colum-sponsors{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-top: 10px;
+}
+
+/* FIM DA TERCEIRA SECTION */
+
+/* COMEÇO DA QUARTA SECTION */
+
+.section-grafics{
+    margin: 30px 106px;
+    padding: 3rem 0;
+}
+
+.conteiner-grafics > h2{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 37px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.conteiner-blocks{
+    display: flex;
+    gap: 0 2rem;
+    margin-top: 40px;
+}
+
+.card-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-block img{
+    width: 80%;
+}
+.card-block > h4{
+    font-family: "Inter", sans-serif;
+    padding: 10px 0 ;
+}
+
+.card-block > p{
+    font-family: "Inter", sans-serif;
+    color: #2E2E27;
+}
+
+/* FIM DA QUARTA SECTION */
+
+/* COMEÇO DA QUINTA SECTION */
+
+.section-about-daniel{
+    background-color: #061f13;
+    
+}
+
+.conteiner-about-daniel{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 ;
+}
+
+.about-text{
+    padding-top: 70px;
+    padding-right: 20px ;
+}
+
+.about-text h3{
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.about-text h5{
+    font-size: 16px;
+    color: #f4f4f49c;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+
+}
+
+
+/* FIM DA QUINTA SECTION */
+
+/* COMEÇO DA SEXTA SECTION */
+
+.section-cards-six{
+    margin: 50PX 106px;
+}
+
+.section-cards-six h3{
+    font-size: 38px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 40px;
+}
+
+
+.conteiner-cards-six{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+/* CARD 1 ------------------------------------------- */
+
+.cards-one-colum1{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    padding: 30px 50px 30px 50px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.cards-one-colum1 img{
+    width: 36px;
+    padding-bottom: 10px;
+}
+
+.cards-one-colum1 h5{
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.cards-one-colum1 p {
+    font-size: 15px;
+}
+
+/* CARD 2 ------------------------------------------- */
+
+.cards-one-colum2{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    padding: 30px 50px 40px 50px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.cards-one-colum2 img{
+    width: 36px;
+    padding-bottom: 10px;
+}
+
+.cards-one-colum2 h5{
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.cards-one-colum2 p {
+    font-size: 15px;
+}
+
+/* CARD 2 ------------------------------------------- */
+
+/* CARD 3 ------------------------------------------- */
+
+.cards-one-colum3{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    padding: 30px 50px 30px 50px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.cards-one-colum3 img{
+    width: 36px;
+    padding-bottom: 10px;
+}
+
+.cards-one-colum3 h5{
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.cards-one-colum3 p {
+    font-size: 15px;
+}
+/* CARD 3 ------------------------------------------- */
+
+
+
+
+/* CARD 4 ------------------------------------------- */
+
+.conteiner-two-colum{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+.cards-two-colum1{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.cards-two-colum1 img{
+    width: 36px;
+    padding-bottom: 10px;
+}
+
+.cards-two-colum1 h5{
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.cards-two-colum1 p {
+    font-size: 15px;
+}
+/* CARD 4 ------------------------------------------- */
+
+
+/* CARD 5 ------------------------------------------- */
+
+.cards-two-colum2{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.cards-two-colum2 img{
+    width: 36px;
+    padding-bottom: 10px;
+}
+
+.cards-two-colum2 h5{
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.cards-two-colum2 p {
+    font-size: 15px;
+}
+
+/* FIM DA SEXTA SECTION */
+
+/* COMEÇO DA SETIMA SECTION */
+
+.section_layout1{
+    margin: 50px 106px;
+}
+
+.section_layout1 ol{
+    margin: 70px 40px;
+}
+
+.section_layout1 ol li{
+    font-family: "Inter", sans-serif;
+    font-size: 38px;
+}
+
+/* CARD LAYOUT1 ----------------------------------- */
+
+.cards-layout1{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    padding: 30px 50px 30px 50px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.cards-layout1 img{
+    width: 25%;
+    padding-bottom: 10px;
+}
+
+.cards-layout1 h5{
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.cards-layout1 p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.cards-layout1 > a{
+    background-color: #0B3721;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+}
+
+/* CARD LAYOUT1 ----------------------------------- */
+
+/* CARD2 LAYOUT1 ----------------------------------- */
+
+.cards2-layout1{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    padding: 30px 50px 30px 50px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    background-color: #f2f1e8;
+
+}
+
+.cards2-layout1 img{
+    width: 18%;
+    padding-bottom: 10px;
+}
+
+.cards2-layout1 h5{
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.cards2-layout1 p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.cards2-layout1 > a{
+    background-color: #0B3721;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+}
+
+/* CARD2 LAYOUT1 ----------------------------------- */
+
+/* FIM DA SETIMA SECTION */
+
+/* COMEÇO DA OITAVA SECTION */
+
+.section-surface-secondary{
+    margin: 50px 106px;
+}
+
+.conteiner-surface-secondary{
+    font-family: "Inter", sans-serif;
+    margin: 50px 0 100px 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.conteiner-text-surface{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: "Inter", sans-serif;
+}
+
+.conteiner-text-surface h3{
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.conteiner-text-surface p{
+    font-size: 17px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+/* CARD1 SURFACE-SECONDARY ------------------------------ */
+
+
+.card1-surface-secondary{
+    display: inline-block;
+    background-color: #dfdfdf;
+    border-radius: 15px;
+}
+
+.card1-surface-secondary img{
+    padding-bottom: 20px;
+}
+
+.card1-surface-secondary h4{
+    font-size: 17px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.card1-surface-secondary p{
+    font-size: 14px;
+    padding: 5px 10px 50px 10px;
+}
+
+/* CARD1 SURFACE-SECONDARY ------------------------------ */
+
+/* CARD2 SURFACE-SECONDARY ------------------------------ */
+
+.card2-surface-secondary{
+    display: inline-block;
+    background-color: #dfdfdf;
+    border-radius: 15px;
+}
+
+.card2-surface-secondary img{
+    padding-bottom: 20px;
+}
+
+.card2-surface-secondary h4{
+    font-size: 17px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.card2-surface-secondary p{
+    font-size: 14px;
+    padding: 5px 10px 50px 10px;
+}
+
+
+/* CARD2 SURFACE-SECONDARY ------------------------------ */
+
+/* CARD3 SURFACE-SECONDARY ------------------------------ */
+
+.card3-surface-secondary{
+    display: inline-block;
+    background-color: #dfdfdf;
+    border-radius: 15px;
+}
+
+.card3-surface-secondary img{
+    padding-bottom: 20px;
+}
+
+.card3-surface-secondary h4{
+    font-size: 17px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.card3-surface-secondary p{
+    font-size: 14px;
+    padding: 5px 10px 50px 10px;
+}
+
+/* CARD3 SURFACE-SECONDARY ------------------------------ */
+
+/* FIM DA OITAVA SECTION */
+
+/* COMEÇO DA NONA SECTION */
+
+.section-calc{
+    margin: 50px 106px 100px 106px;
+}
+
+.conteiner-calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-calc h4{
+    font-family: "Inter", sans-serif;
+    font-size: 37px;
+    font-weight: 400;
+}
+
+
+.conteiner-calc p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    
+}
+
+.conteiner-calc img{
+    margin-top: 30px;
+}
+
+/* FIM DA NONA SECTION */
+
+
+/* COMEÇO DA DECIMA SECTION */
+
+.section-content2{
+    background-color: #0B3721;
+    padding: 50px 106px 50px 106px;
+    
+}
+
+.conteiner-content2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content2-img img{
+    width: 25%;
+}
+
+.content2-text{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.content2-text h4{
+    font-size: 36px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;    
+}
+
+.content2-text h6{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.548);
+    font-family: "Inter", sans-serif;
+
+}
+
+.content2-text p {
+    font-size: 11px;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.548);
+}
+
+
+/* FIM DA DECIMA SECTION */
+
+/* COMEÇO DA DECIMA PRIMEIRA SECTION */
+
+.section-costomers{
+    padding: 50px 106px 80px 106px;
+}
+
+.conteiner-costomers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.costomers-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.costomers-text h3{
+    font-family: "Inter", sans-serif;
+    font-size: 37px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+.costomers-text a{
+    background-color: #0B3721;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    max-width: 60%;
+}
+
+
+.costomers-img{
+    display: flex;
+    gap: 2rem;
+}
+
+
+/* FIM DA DECIMA PRIMEIRA SECTION */
+
+/* COMEÇO DA DECIMA SEGUNDA SECTION */
+
+.section-cta26{
+    background-color: #0b3721;
+    padding: 50px 106px 50px 106px;
+}
+
+.conteiner-cta26{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.cta26-text h3{
+    font-size: 52px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-cta26 a{
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #0B3721;
+    text-decoration: none;
+
+}
+
+.cta26-img{
+    margin-top: 100px;
+}
+
+
+/* FIM DA DECIMA SEGUNDA SECTION */
+
+/* COMEÇO DO FOOTER E ULTIMA PLMR  NÃO AGUENTO MAIS MEUS AMIGOS */
+
+footer{
+    background-color: #061f13;
+}
+
+.conteiner-large{
+    padding: 50px 106px 50px 106px;
+}
+
+
+.w-layout-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+
+.w-layout-grid-links{
+    display: flex;
+    gap: 5rem;
+}
+
+.w-layout-grid-links a{
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+
+}
+
+.footer-paragrafos p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.13);
+    padding-bottom: 30px;
+}
+
+/* FIM DO FOOTER E ULTIMA PLMR  NÃO AGUENTO MAIS MEUS AMIGOS */
+
+
+/* SITE REPLICADO DO FIGMA POR MIM ©Xaram Dev | Discord:xaram666 | GitHub:XaramDev */
+
+
+/* ------------------------------ */
+.copy{
+    text-align: center;
+    color: white;
+}
+
+.copy span{
+    color: cyan;
+}
+/* ------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
